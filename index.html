@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>Expense Chart Component</title>
+</head>
+
+<body>
+    <div class="container" role="main">
+        <div class="balance">
+            <div class="top">
+                <div>
+                    <h1>My balance</h1>
+                    <p>$921.48</p>
+                </div>
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="main">
+                <h1>Spending - Last 7 days</h1>
+                <div class="chart">
+                    <div class="day mon" id="mon">
+                        <div class="price price1"></div>
+                        <div class="bar1 red-bar bar"></div>
+                        <p>mon</p>
+                    </div>
+                    <div class="day tue" id="tue">
+                        <div class="price price2"></div>
+                        <div class="bar2 red-bar bar"></div>
+                        <p>tue</p>
+                    </div>
+                    <div class="day wed" id="wed">
+                        <div class="price price3"></div>
+                        <div class="bar3 bar"></div>
+                        <p>wed</p>
+                    </div>
+                    <div class="day thu" id="thu">
+                        <div class="price price4"></div>
+                        <div class="bar4 red-bar bar"></div>
+                        <p>thu</p>
+                    </div>
+                    <div class="day fri" id="fri">
+                        <div class="price price5"></div>
+                        <div class="bar5 red-bar bar"></div>
+                        <p>fri</p>
+                    </div>
+                    <div class="day sat" id="sat">
+                        <div class="price price6"></div>
+                        <div class="bar6 red-bar bar"></div>
+                        <p>sat</p>
+                    </div>
+                    <div class="day sun" id="sun">
+                        <div class="price price7"></div>
+                        <div class="bar7 red-bar bar"></div>
+                        <p>sun</p>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="month">
+                        <h2>Total this month</h2>
+                        <p>$478.33</p>
+                    </div>
+                    <div class="per">
+                        <h3>+2.4%</h3>
+                        <p>from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
